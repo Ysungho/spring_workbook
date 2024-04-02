@@ -1,2 +1,5 @@
-package org.zerock.springex.mapper;public class TimeMapper2 {
+package org.zerock.springex.mapper;
+
+public interface TimeMapper2 {
+    String getNow();
 }

@@ -1,2 +1,8 @@
-package org.zerock.springex.mapper;public class TimeMapper {
+package org.zerock.springex.mapper;
+
+import org.apache.ibatis.annotations.Select;
+
+public interface TimeMapper {
+    @Select("select now()")
+    String getTime();
 }
